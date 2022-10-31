@@ -2,14 +2,14 @@ import React, { Fragment } from "react";
 
 const PatientChecks = ({ stats }) => {
   return (
-    <div className="patientDetailBox">
+    <div className="patientDetailBox" style={{ borderColor: stats.color }}>
       {stats.data.map((item, i) => {
         return (
           <Fragment>
             <h4>{item.header}</h4>
             {item.value && <p>{item.value}</p>}
-            {item.subData &&
-              Object.entries(item.subData).map((entry, i) => {
+            {item.subDataObj &&
+              Object.entries(item.subDataObj).map((entry, i) => {
                 const [head, val] = entry;
                 return (
                   <Fragment>
@@ -19,6 +19,7 @@ const PatientChecks = ({ stats }) => {
                   </Fragment>
                 );
               })}
+            {item.subDataArr && <p>{item.subDataArr.join(", ")}</p>}
           </Fragment>
         );
       })}
