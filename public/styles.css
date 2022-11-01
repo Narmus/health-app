@@ -1,11 +1,117 @@
+p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+h4 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
+h2 {
+  margin: 0;
+}
+i {
+  float: left;
+  margin-right: 10px;
+}
 .patientDetailBox {
   position: relative;
   border-style: solid;
   border-radius: 10px;
   border-top-width: 10px;
-  width: 15%;
-  height: 300px;
+  width: 18vw;
+  min-height: 40vh;
   float: right;
   margin: 10px;
   padding: 10px;
+}
+.patientInfo {
+  position: relative;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: aqua;
+  border-top-width: 10px;
+  min-height: 25vh;
+  min-width: 60vw;
+  float: right;
+  margin: 10px;
+  margin-left: 100px;
+  padding: 15px;
+}
+
+.editable {
+  position: relative;
+  border-style: solid;
+  border-radius: 10px;
+  min-width: 15vw;
+  margin: 10px;
+  margin-left: 20px;
+  padding-top: 0;
+}
+.editable h3 {
+  background-color: aquamarine;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 2px 2px 2px 10px;
+}
+.editable p {
+  padding: 2px 2px 2px 10px;
+  margin-top: 0;
+}
+
+.float-right {
+  float: right;
+}
+
+.border {
+  border-style: solid;
+}
+.patientDetailBoxer {
+  text-align: center;
+  position: relative;
+  padding: 1px;
+  width: 5vw;
+  float: left;
+  margin: 2px;
+  border-radius: 10px;
+  border-width: thin;
+  border-color: cornflowerblue;
+  clear: right;
+}
+
+.patientDetailBoxer p {
+  margin-top: 0;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+}
+.patientDetailBoxer-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: cornflowerblue;
+}
+
+.bolded {
+  font-weight: bold;
+}
+.right-sided {
+  float: right;
+}
+.left-sided {
+  float: left;
+}
+.screening {
+  border: solid;
+  border-radius: 10px;
+  width: 20vw;
+  min-height: 20vh;
+  float: right;
+  margin: 2px;
+  padding: 5px;
 }

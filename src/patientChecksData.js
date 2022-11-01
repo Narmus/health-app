@@ -48,14 +48,14 @@ const patientChecksData = {
       { header: "Habits:", value: ["Smoking"] },
       {
         header: "Vitals",
-        subDataObj: {
-          bmi: "NA",
-          systolicDiastolic: "value",
-          glucose: "glucose",
-          oxygensat: "NA",
-        },
+        subDataArr: [
+          "BMI: NA",
+          "Systolic/Diastolic: 127/84",
+          "Glucose: NA",
+          "O2 Saturation: NA",
+        ],
       },
-      { header: "Lab:", subDataObj: { HDL: "NA", LDL: "NA", HbA1c: "NA" } },
+      { header: "Lab:", subDataArr: ["HDL: NA", "LDL: NA", "HbA1c: NA"] },
     ],
   },
   card3: {
