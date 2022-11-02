@@ -1,33 +1,6 @@
-// let patientChecksData = [
-//   {
-//     primaryPhysician: "Name",
-//     primaryLocation: "Location",
-//     referredBy: "referrer",
-//     lastVisit: "Date",
-//     totalVisits: "visits",
-//     totalHospitalization: "hospitalized",
-//     readMission: "number",
-//     condition: ["1", "2", "3"],
-//     habits: ["habit1", "habit2"],
-//     vitals: {
-//       bmi: "NA",
-//       systolicDiastolic: "value",
-//       glucose: "glucose",
-//       oxygensat: "NA",
-//     },
-//     labs: { hdl: "hdl", ldl: "ldl", hba1c: "hba1c" },
-//     allergies: ["aller1", "aller2", "aller3"],
-//     medications: ["med1", "med2"],
-//     immunization: ["whatever it is"],
-//     programs: ["prog1", "prog2", "prog3"],
-//     serviceCategory: ["sercat1", "sercat2"],
-//     measures: ["measure1", "measure2", "measure3"],
-//   },
-// ];
-
 const patientChecksData = {
   card1: {
-    color: "blue",
+    color: "#1a75ff",
     data: [
       { header: "Primary Physician", value: "TEST ONLY" },
       { header: "Primary Location", value: "EBS Demo Facility - 35" },

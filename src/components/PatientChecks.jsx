@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 
 const PatientChecks = ({ stats }) => {
   return (
-    <div className="patientDetailBox" style={{ borderColor: stats.color }}>
+    <div style={{ borderColor: stats.color }}>
       {stats.data.map((item, i) => {
         return (
           <Fragment>
