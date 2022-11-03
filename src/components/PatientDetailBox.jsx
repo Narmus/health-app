@@ -24,14 +24,3 @@ const patientDetailBox = ({ content }) => {
 };
 
 export default patientDetailBox;
-
-{
-  /* <p
-        className="patientDetailBoxer-top"
-        style={{ backgroundColor: "cornflowerblue" }}
-      >
-        Content
-      </p>
-      <p>Content</p>
-      <p>Content</p> */
-}

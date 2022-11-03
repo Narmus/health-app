@@ -17,14 +17,3 @@ const PatientChecks = ({ stats }) => {
 };
 
 export default PatientChecks;
-
-{
-  /* <p> {Object.entries(item.subDataObj).map((entry, i) => {
-                const [head, val] = entry;
-                return (
-                  <p>
-                    {head} : {val}</p>
-                  
-                );
-              })}}</p> */
-}
