@@ -23,7 +23,7 @@ const patientChecksData = {
         header: "Vitals",
         subDataArr: [
           "BMI: NA",
-          "Systolic/Diastolic: 127/84",
+          "Systolic/ Diastolic: 127/84",
           "Glucose: NA",
           "O2 Saturation: NA",
         ],
@@ -61,7 +61,7 @@ const patientChecksData = {
       {
         header: "Measures:",
         subDataArr: [
-          "Adult Access to Preventive/Ambulatory Health Services ALL",
+          "Adult Access to Preventive/ Ambulatory Health Services ALL",
           "Adult BMI Assessment",
           "Controlling High blood pressure with 18-59 years of age",
         ],
