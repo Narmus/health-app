@@ -9,7 +9,7 @@ const Sidebar = ({ sideBar, toggle }) => {
     >
       {sideBarItemsIcons.map((val, i) => {
         return (
-          <li>
+          <li key={i}>
             <i className={val.head}></i> {val.value}
           </li>
         );

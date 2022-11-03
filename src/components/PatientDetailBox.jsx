@@ -6,14 +6,22 @@ const patientDetailBox = ({ content }) => {
       {Object.entries(content).map((entry, i) => {
         const [head, val] = entry;
         return (
-          <div>
+          <div key={i}>
             <p className="detail-box-head">{head}</p>
             {head !== "CareGaps"
               ? val.map((ent, i) => {
-                  return <p className="detail-box-val">{ent}</p>;
+                  return (
+                    <p key={i} className="detail-box-val">
+                      {ent}
+                    </p>
+                  );
                 })
               : val.map((ent, i) => {
-                  return <p className="care-gap">{ent}</p>;
+                  return (
+                    <p key={i} className="care-gap">
+                      {ent}
+                    </p>
+                  );
                 })}
           </div>
         );

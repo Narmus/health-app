@@ -5,7 +5,7 @@ const PatientChecks = ({ stats }) => {
     <div style={{ borderColor: stats.color }}>
       {stats.data.map((item, i) => {
         return (
-          <Fragment>
+          <Fragment key={i}>
             <h4>{item.header}</h4>
             {item.value && <span>{item.value}</span>}
             {item.subDataArr && <p>{item.subDataArr.join(", ")}</p>}

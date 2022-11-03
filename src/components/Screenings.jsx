@@ -5,7 +5,7 @@ const Screenings = ({ screenData }) => {
     <div className="screenings">
       <h4>Screenings: </h4>
       {screenData.screenings.map((data, i) => {
-        return <p>⚪ {data} &emsp;</p>;
+        return <p key={i}>⚪ {data} &emsp;</p>;
       })}
     </div>
   );
