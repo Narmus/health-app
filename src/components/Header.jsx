@@ -38,7 +38,7 @@ const Header = ({ toggle }) => {
           </button>
         </div>
         <div className="header-end-sec">
-          <img src={healthAppLogo} alt="Logo"></img>
+          <img className="app-logo" src={healthAppLogo} alt="Logo"></img>
           <button>
             <i class="ri-notification-2-line ri-1x"></i>
           </button>
