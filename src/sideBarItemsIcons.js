@@ -7,13 +7,13 @@ const sideBarItemsIcons = [
   { head: "ri-dossier-line", value: "FirstAid" },
   { head: "ri-booklet-line", value: "Note" },
   { head: "ri-book-open-fill", value: "Booklet" },
+  { head: "ri-file-shield-fill", value: "Item" },
   { head: "ri-book-open-fill", value: "Item" },
+  { head: "ri-file-shield-fill", value: "Item" },
   { head: "ri-book-open-fill", value: "Item" },
+  { head: "ri-file-shield-fill", value: "Item" },
   { head: "ri-book-open-fill", value: "Item" },
-  { head: "ri-book-open-fill", value: "Item" },
-  { head: "ri-book-open-fill", value: "Item" },
-  { head: "ri-book-open-fill", value: "Item" },
-  { head: "ri-book-open-fill", value: "Item" },
+  { head: "ri-file-shield-fill", value: "Item" },
   { head: "ri-book-open-fill", value: "Item" },
 ];
 

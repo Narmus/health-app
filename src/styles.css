@@ -408,7 +408,7 @@ button:hover {
 /* IPAD PORTRAIT */
 /* IPAD PORTRAIT */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 850px) {
   .editable {
     width: 47.8vw;
     margin-left: 10vw;
@@ -431,6 +431,42 @@ button:hover {
     align-items: flex-end;
     justify-content: right;
     zoom: 70%;
+    width: 90vw;
+  }
+  .flexbox-container-patient-info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+  .patient-checks div {
+    min-width: 22.8vw;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .editable {
+    width: 47.8vw;
+    margin-left: 10vw;
+  }
+  .editable-flex {
+    flex-direction: row;
+    align-items: center;
+  }
+  .header-end-sec {
+    display: flex;
+    zoom: 50%;
+  }
+  .header-divs {
+    zoom: 75%;
+  }
+
+  .full-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: right;
+    zoom: 60%;
     width: 90vw;
   }
   .flexbox-container-patient-info {
