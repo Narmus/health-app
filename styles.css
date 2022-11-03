@@ -39,11 +39,9 @@ h2 {
 i {
   float: left;
 }
-button {
-  max-height: fit-content;
-}
+
 button:hover {
-  filter: brightness(150%);
+  filter: brightness(125%);
   color: black;
 }
 
@@ -124,10 +122,30 @@ button:hover {
 }
 
 .patient-info-right {
-  margin-left: ;
   margin-top: 0;
   text-align: left;
   float: right;
+}
+
+.patient-info-img-holder {
+  position: relative;
+
+  display: inline-block;
+  float: left;
+}
+
+.change-pic-button {
+  position: absolute;
+  top: 80%;
+  left: 46.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border: 0;
+  border-radius: 50%;
+  padding: 10px;
+
+  background-color: #1a75ff;
+  color: white;
 }
 
 .screenings {
@@ -241,7 +259,6 @@ button:hover {
 .side-bar {
   margin: 0;
   background-color: white;
-  color: black;
   gap: 1rem;
   align-items: center;
   padding: 0;
@@ -372,23 +389,8 @@ Search box container */
   margin: 0;
 }
 
-.select ul {
-  position: absolute;
-  top: 120%;
-  left: 0;
-  list-style: none;
-  background: white;
-  color: black;
-  width: 100%;
-  border-radius: 4px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s;
-}
-
-.select ul li {
-  padding: 10px 20px;
-  cursor: pointer;
+.select p {
+  padding-left: 10px;
 }
 
 .open {
@@ -404,6 +406,7 @@ Search box container */
   border-radius: 25px;
   padding: 5px;
   margin: 10px 10px 0 10px;
+  zoom: 120%;
 }
 
 .header-end-sec i {
