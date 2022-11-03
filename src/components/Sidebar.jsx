@@ -25,8 +25,13 @@ const Sidebar = ({ toggle }) => {
             </div>
             <input type={"text"} placeholder="Search"></input>
           </div>
-          <button>Advance Search</button>
-          <button>Patient</button>
+          <button>
+            <i class="ri-search-line ri-2x"></i>
+            <p>Advance Search</p>
+          </button>
+          <button>
+            <i class="ri-add-line ri-2x"></i> <p>Patient</p>
+          </button>
         </div>
         <div className="header-end-sec">
           <img src="images/healthapp"></img>
@@ -43,7 +48,7 @@ const Sidebar = ({ toggle }) => {
             <i class="ri-volume-up-line ri-1x"></i>
           </button>
           <button>
-            <i class="ri-user-3-line ri-1x"></i>
+            <i class="ri-user-3-line ri-1x"></i> &#9662;
           </button>
         </div>
       </div>

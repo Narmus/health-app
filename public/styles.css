@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: Verdana, sans-serif;
 }
 
 header {
@@ -38,13 +39,17 @@ h2 {
 i {
   float: left;
 }
+button {
+  max-height: fit-content;
+}
 button:hover {
   filter: brightness(150%);
+  color: black;
 }
 
 .flexbox-container-patient-checks {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   margin: 10px;
 }
 
@@ -73,13 +78,13 @@ button:hover {
   display: flex;
 }
 .patient-detail-box {
-  float: left;
   margin: 2px;
   border: 1px solid;
   border-radius: 10px;
   border-width: thin;
   border-color: #1a75ff;
-  max-height: 6rem;
+  height: fit-content;
+  width: fit-content;
   display: flex;
   justify-content: space-evenly;
 }
@@ -101,13 +106,13 @@ button:hover {
   border-radius: 50%;
   box-sizing: border-box;
   padding: 0 15px 0 15px;
-  margin: 5px 30px 0 30px;
+  margin: 5px 30px 5px 30px;
 }
 
 .patient-checks div {
   padding: 10px;
   width: 15vw;
-  margin: 10px 15px 10px 0;
+  margin: 10px 0px 10px 0;
   border: 2px solid;
   border-top: 10px solid;
   border-radius: 10px;
@@ -119,6 +124,8 @@ button:hover {
 }
 
 .patient-info-right {
+  margin-left: ;
+  margin-top: 0;
   text-align: left;
   float: right;
 }
@@ -142,8 +149,8 @@ button:hover {
   position: relative;
   border-radius: 10px;
   min-width: 15vw;
-  min-height: 15vh;
-  margin: 0 10px 0 10px;
+  min-height: 10vh;
+  margin: 0 0 0 10px;
   margin-left: 20px;
   padding-top: 0;
   box-shadow: 0px 0px 5px 1px #c0c0c0;
@@ -179,6 +186,9 @@ button:hover {
 
 .patient-name-box {
   display: flex;
+}
+.patient-name-box button {
+  max-height: 30px;
 }
 
 .button-space {
@@ -243,10 +253,17 @@ button:hover {
 }
 
 .sidebar-divs button {
+  display: flex;
+  padding: 5px;
+  gap: 5px;
   margin: 0 10px 0 10px;
   border: 0;
   border-radius: 50px;
   background-color: #1a75ff;
+  color: white;
+}
+.sidebar-divs p {
+  padding-right: 10px;
 }
 
 .ri-menu-line {
@@ -259,7 +276,7 @@ button:hover {
   color: white;
   top: 0;
   left: 0;
-  height: 100vh;
+  min-height: 100vh;
   /* transform: translateX(-100%); */
   width: 50px;
   overflow-x: hidden;

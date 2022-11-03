@@ -10,23 +10,24 @@ const PatientInfo = ({ info }) => {
           src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png"
           alt="User Pic"
         />
-        <div className="patient-name-box">
-          <h2>{info.name}</h2>
-          <button className="orange-button">
-            <i class="ri-pencil-line"></i>
-          </button>
-          <button className="orange-button-no-space">
-            <i class="ri-more-2-fill"></i>
-          </button>
-          <button className="button-space">
-            <i class="ri-add-line ri-2x"></i> <p>Chart</p>
-          </button>
-          <button className="button-space">
-            <i class="ri-add-line ri-2x"></i> <p>Enroll</p>
-          </button>
-        </div>
+
         <div className="flexbox-container-patient-info-inner">
           <div className="patient-info-left ">
+            <div className="patient-name-box">
+              <h2>{info.name}</h2>
+              <button className="orange-button">
+                <i class="ri-pencil-line"></i>
+              </button>
+              <button className="orange-button-no-space">
+                <i class="ri-more-2-fill"></i>
+              </button>
+              <button className="button-space">
+                <i class="ri-add-line ri-2x"></i> <p>Chart</p>
+              </button>
+              <button className="button-space">
+                <i class="ri-add-line ri-2x"></i> <p>Enroll</p>
+              </button>
+            </div>
             <p>
               {info.sex}
               <span> DOB: </span>
