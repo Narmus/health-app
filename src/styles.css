@@ -485,7 +485,7 @@ button:hover {
 /* IPAD Landscape */
 /* IPAD Landscape */
 /* IPAD Landscape */
-@media (min-width: 1001px) and (max-width: 1200px) {
+@media (min-width: 1001px) and (max-width: 1200px) and (orientation: landscape) {
   .flexbox-container-patient-info {
     min-width: fit-content;
     max-width: 100vw;
