@@ -1,4 +1,3 @@
-import { logDOM } from "@testing-library/react";
 import React from "react";
 
 const patientDetailBox = ({ content }) => {
@@ -9,7 +8,7 @@ const patientDetailBox = ({ content }) => {
         return (
           <div>
             <p className="detail-box-head">{head}</p>
-            {head != "CareGaps"
+            {head !== "CareGaps"
               ? val.map((ent, i) => {
                   return <p className="detail-box-val">{ent}</p>;
                 })
