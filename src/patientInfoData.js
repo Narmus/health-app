@@ -6,7 +6,7 @@ const patientInfoData = {
   ethnicity: "Caucasian (European)",
   occupation: "Management",
   account: "14251541825",
-  mrn: "EBS Demo Facility - 35",
+  mrn: "(EBS Demo Facility - 35)",
   address: "No details Provided",
   primaryph: "+9111111111",
   emergencyph: "+122222222",

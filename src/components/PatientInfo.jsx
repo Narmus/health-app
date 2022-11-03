@@ -6,10 +6,15 @@ const PatientInfo = ({ info }) => {
   return (
     <div className="patient-info">
       <div>
-        <img
-          src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png"
-          alt="User Pic"
-        />
+        <div className="patient-info-img-holder">
+          <img
+            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png"
+            alt="User Pic"
+          />
+          <button className="change-pic-button">
+            <i class="ri-video-add-fill"></i>
+          </button>
+        </div>
 
         <div className="flexbox-container-patient-info-inner">
           <div className="patient-info-left ">
